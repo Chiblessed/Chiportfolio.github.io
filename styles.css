@@ -247,3 +247,28 @@ margin: 20px 0 40px;
         width: 0;
     }
 } 
+@media (max-width: 491px){
+    .container{
+    width: 30%;
+     }
+     .navbar{
+    overflow: hidden;
+    }
+    
+    .images img{
+    display: flex;
+    flex-direction: left;
+    flex: 3;
+    width: 60%;
+    height: 50%;
+    float: none;
+    }
+    .navbar a {
+    display: inline;
+    padding-right: 15px;
+    }
+    .images{
+    padding-right: 50%;
+    }
+    
+      }
